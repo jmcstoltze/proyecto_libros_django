@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block 'content' %}
+<div>
+    <content id="formulario_contacto">
+        <div class="container">
+            <h2>Formulario de Contacto</h2>
+            <hr>
+            <form action="{% url 'contacto' %}" method="post">
+                {% csrf_token %}
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" placeholder="Ingrese nombre" class="form-control" id="nombre" name="nombre" required>
+              </div>
+              <div class="mb-3">
+                <label for="apellidos" class="form-label">Apellidos</label>
+                <input type="text" placeholder="Ingrese apellidos" class="form-control" id="apellidos" name="apellidos" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" placeholder="Ingrese email" class="form-control" id="email" name="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea placeholder="Ingrese mensaje" class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-custom">Enviar mensaje</button>
+            </form>
+          </div>            
+    </content>
+</div>
+{% endblock %}

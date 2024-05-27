@@ -1,0 +1,194 @@
+[
+    {
+        "model": "resena_libros_web.libro",
+        "pk": 1,
+        "fields": {
+            "titulo": "Cien años de soledad",
+            "descripcion": "La obra cumbre de Gabriel García Márquez.",
+            "anio_publicacion": 1967,
+            "portada_url": "img/imagenes_de_prueba/cien_anios_de_soledad.jpg",
+            "genero": [1, 12],
+            "autor": [1]
+        }
+    },
+    {
+        "model": "resena_libros_web.libro",
+        "pk": 2,
+        "fields": {
+            "titulo": "El resplandor",
+            "descripcion": "Un clásico del terror psicológico.",
+            "anio_publicacion": 1977,
+            "portada_url": "img/imagenes_de_prueba/el_resplandor.jpg",
+            "genero": [7],
+            "autor": [2]
+        }
+    },
+    {
+        "model": "resena_libros_web.libro",
+        "pk": 3,
+        "fields": {
+            "titulo": "Norwegian Wood",
+            "descripcion": "Una historia de amor melancólica.",
+            "anio_publicacion": 1987,
+            "portada_url": "img/imagenes_de_prueba/norwegian_wood.jpg",
+            "genero": [2],
+            "autor": [3]
+        }
+    },
+    {
+        "model": "resena_libros_web.libro",
+        "pk": 4,
+        "fields": {
+            "titulo": "Rebelión en la granja",
+            "descripcion": "Una alegoría política brillante.",
+            "anio_publicacion": 1945,
+            "portada_url": "img/imagenes_de_prueba/rebelion_en_la_granja.jpg",
+            "genero": [8, 12],
+            "autor": [9]
+        }
+    },
+    {
+        "model": "resena_libros_web.libro",
+        "pk": 5,
+        "fields": {
+            "titulo": "1984",
+            "descripcion": "Una distopía clásica.",
+            "anio_publicacion": 1949,
+            "portada_url": "img/imagenes_de_prueba/1984.jpg",
+            "genero": [3, 12],
+            "autor": [9]
+        }
+    },
+    {
+        "model": "resena_libros_web.libro",
+        "pk": 6,
+        "fields": {
+            "titulo": "El señor de los anillos",
+            "descripcion": "Una epopeya de fantasía épica.",
+            "anio_publicacion": 1954,
+            "portada_url": "img/imagenes_de_prueba/el_senior_de_los_anillos.jpg",
+            "genero": [6, 12],
+            "autor": [10]
+        }
+    },
+    {
+        "model": "resena_libros_web.libro",
+        "pk": 7,
+        "fields": {
+            "titulo": "El proceso",
+            "descripcion": "Una obra fundamental del existencialismo.",
+            "anio_publicacion": 1925,
+            "portada_url": "img/imagenes_de_prueba/el_proceso.jpg",
+            "genero": [12],
+            "autor": [6]
+        }
+    },
+    {
+        "model": "resena_libros_web.libro",
+        "pk": 8,
+        "fields": {
+            "titulo": "La peste",
+            "descripcion": "Una novela sobre la resistencia humana ante la adversidad.",
+            "anio_publicacion": 1947,
+            "portada_url": "img/imagenes_de_prueba/la_peste.jpg",
+            "genero": [1, 12],
+            "autor": [7]
+        }
+    },
+    {
+        "model": "resena_libros_web.libro",
+        "pk": 9,
+        "fields": {
+            "titulo": "Un mundo feliz",
+            "descripcion": "Una distopía futurista y visionaria.",
+            "anio_publicacion": 1932,
+            "portada_url": "img/imagenes_de_prueba/un_mundo_feliz.jpg",
+            "genero": [3, 12],
+            "autor": [8]
+        }
+    },
+    {
+        "model": "resena_libros_web.libro",
+        "pk": 10,
+        "fields": {
+            "titulo": "Fahrenheit 451",
+            "descripcion": "Una crítica a la censura y el conformismo.",
+            "anio_publicacion": 1953,
+            "portada_url": "img/imagenes_de_prueba/farenheit_451.jpg",
+            "genero": [3, 12],
+            "autor": [16]
+        }
+    },
+    {
+        "model": "resena_libros_web.libro",
+        "pk": 11,
+        "fields": {
+            "titulo": "El libro de Manuel",
+            "descripcion": "La narración se superpone con artículos periodísticos, poemas y gráficos.",
+            "anio_publicacion": 1973,
+            "portada_url": "img/imagenes_de_prueba/el_libro_de_manuel.jpg",
+            "genero": [12],
+            "autor": [11]
+        }
+    },
+    {
+        "model": "resena_libros_web.libro",
+        "pk": 12,
+        "fields": {
+            "titulo": "Rayuela",
+            "descripcion": "Una novela experimental que desafía las convenciones literarias.",
+            "anio_publicacion": 1963,
+            "portada_url": "img/imagenes_de_prueba/rayuela.jpg",
+            "genero": [12], 
+            "autor": [11]
+        }
+    },
+    {
+        "model": "resena_libros_web.libro",
+        "pk": 13,
+        "fields": {
+            "titulo": "Desolación",
+            "descripcion": "Una colección de poesía intensamente emotiva.",
+            "anio_publicacion": 1922,
+            "portada_url": "img/imagenes_de_prueba/desolacion.jpg",
+            "genero": [11],
+            "autor": [13]
+        }
+    },
+    {
+        "model": "resena_libros_web.libro",
+        "pk": 14,
+        "fields": {
+            "titulo": "Veinte poemas de amor y una canción desesperada",
+            "descripcion": "Un clásico de la poesía amorosa.",
+            "anio_publicacion": 1924,
+            "portada_url": "img/imagenes_de_prueba/veinte_poemas_de_amor.jpg",
+            "genero": [11],
+            "autor": [14]
+        }
+    },
+    {
+        "model": "resena_libros_web.libro",
+        "pk": 15,
+        "fields": {
+            "titulo": "Crónica de una muerte anunciada",
+            "descripcion": "Una narración magistral sobre el destino y la fatalidad.",
+            "anio_publicacion": 1981,
+            "portada_url": "img/imagenes_de_prueba/cronica_de_una_muerte_anunciada.jpg",
+            "genero": [1, 12],
+            "autor": [1]
+        }
+    },
+    {
+        "model": "resena_libros_web.libro",
+        "pk": 16,
+        "fields": {
+            "titulo": "El hombre en busca de sentido",
+            "descripcion": "Una profunda reflexión sobre el propósito de la vida.",
+            "anio_publicacion": 1946,
+            "portada_url": "img/imagenes_de_prueba/el_hombre_en_busca_de_sentido.jpg",
+            "genero": [9],
+            "autor": [15]
+        }
+    }
+]

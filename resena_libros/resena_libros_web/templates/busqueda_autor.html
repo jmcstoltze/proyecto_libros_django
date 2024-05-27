@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block 'content' %}
+<div>
+    <content id="busqueda_resultado">
+        <div class="container mt-4">
+            <h2>Búsqueda por Autor</h2>
+            <hr>          
+            
+            <!-- ComboBox para buscar por autor -->
+            <form form method="post" action="{% url 'busqueda_autor' %}">
+                {% csrf_token %}
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="autor-select" class="form-label"></label> <!-- Sin label -->
+                        <select class="form-select" id="autor-select" name="autor_id">
+                            <option value="" selected disabled>Selecciona un autor</option>
+                            {% for autor in autores %}
+                                <option value="{{ autor.id }}">{{ autor.apellido }}, {{ autor.nombre }}</option>
+                            {% endfor %}
+                        </select>
+                        <button type="submit" class="btn btn-custom">Buscar por autor</button>
+                    </div>
+                </div>
+                <hr>
+            </form>
+    
+            <!-- Resultados de la búsqueda -->
+            {% if libros %}
+                <h3>Resultados de la búsqueda</h3>
+                {% for libro in libros %}
+                <div class="row">                                        
+                    <div class="col-md-4">
+                        <a href="{% url 'detalle_libro' libro.id %}">
+                            <img id="portada" src="{% static libro.portada_url %}" alt="portada" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-8">
+                        <h3>{{ libro.titulo }}</h3>
+                        <p><strong>Descripción:</strong> {{ libro.descripcion }}</p>
+                        <p><strong>Género:</strong> 
+                            {% for genero in libro.genero.all %}
+                                {{ genero.nombre }}{% if not forloop.last %}, {% endif %}
+                            {% endfor %}
+                        </p>
+                        <p><strong>Autor:</strong> 
+                            {% for autor in libro.autor.all %}
+                                {{ autor.nombre }} {{ autor.apellido }}{% if not forloop.last %}, {% endif %}
+                            {% endfor %}
+                        </p>                                                
+                        <p><strong>Calificación:</strong>
+                            {% for calificacion in calificaciones %}
+                                {% if calificacion.0 == libro.id %}
+                                    {{ calificacion.1 }}
+                                {% endif %}
+                            {% endfor %}
+                        </p>
+                    </div>                
+                </div>
+                <hr>  
+                {% endfor %}                
+            {% endif %}              
+        </div>
+    </content>
+</div>
+{% endblock %}

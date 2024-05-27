@@ -1,0 +1,339 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#barra_navegacion {
+    background-color: #F5B60C;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 14pt;
+}
+
+#barra_navegacion span{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 14pt;
+    color: white;
+}
+
+.navbar-custom .nav-link {
+    color: #ffffff; /* Asegura que los enlaces sean blancos */
+}
+
+.nav-login-logout {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#bienvenida .container {
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+#bienvenida h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+#bienvenida p {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+#registro_usuario h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+#registro_usuario .container {
+    margin-top: 80px;
+    margin-bottom: 120px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#registro_usuario form {
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #FFE7D5;
+}
+
+#inicio_sesion h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+#inicio_sesion .container {
+    margin-top: 80px;
+    margin-bottom: 120px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#inicio_sesion form {
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #FFE7D5;
+}
+
+#formulario_contacto h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+#formulario_contacto .container {
+    margin-top: 80px;
+    margin-bottom: 120px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#formulario_contacto form {
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #FFE7D5;
+}
+
+.btn-custom {
+    margin-top: 20px;
+    background-color: #F5B60C;
+    color: white;
+}
+
+#catalogo_libros {
+    font-family: "Ubuntu", sans-serif;
+}
+
+#catalogo_libros h2 {
+    font-weight: 400;
+    text-align: center;
+}
+
+#formulario_contacto .container {
+    margin-top: 80px;
+    margin-bottom: 120px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#catalogo_libros .container {
+    margin-top: 60px;
+}
+
+#detalle_libro .container {
+    margin-top: 80px !important;
+    margin-bottom: 120px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#portada {
+    border-radius: 3px;
+}
+
+#detalle_libro {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+}
+
+#detalle_libro h2 {
+    text-align: center;
+}
+
+#detalle_libro h3, p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+#detalle_libro .comentario {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+}
+
+#agregar_libro h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+#agregar_libro .container {
+    margin-top: 80px;
+    margin-bottom: 120px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#agregar_libro form {
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #FFE7D5;
+}
+
+#busqueda p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#busqueda .container {
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+#busqueda h2, p {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+#busqueda_resultado {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+}
+
+#busqueda_resultado h2 {
+    text-align: center;
+}
+
+#busqueda_resultado h3, p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+#busqueda_resultado .container {
+    margin-top: 80px !important; 
+    margin-bottom: 120px;
+}
+
+.footer {
+    height: 180px;
+    background-color: #F5B60C;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 14pt;
+}
+
+@media (max-width: 575.98px) {
+
+    #bienvenida .container {
+        margin-top: 60px;
+    }
+
+    #bienvenida h2, p {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #registro_usuario .container {
+        margin-top: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #inicio_sesion .container {
+        margin-top: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #detalle_libro .container {
+        margin-top: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #detalle_libro .comentario {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #busqueda .container {
+        margin-top: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #busqueda_resultado .container {
+        margin-top: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+/* Fuentes importadas de Google Fonts
+
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+*/

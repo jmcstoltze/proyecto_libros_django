@@ -1,0 +1,86 @@
+[
+    {
+        "model": "resena_libros_web.genero",
+        "pk": 1,
+        "fields": {
+            "nombre": "Drama"
+        }
+    },
+    {
+        "model": "resena_libros_web.genero",
+        "pk": 2,
+        "fields": {
+            "nombre": "Romance"
+        }
+    },
+    {
+        "model": "resena_libros_web.genero",
+        "pk": 3,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "resena_libros_web.genero",
+        "pk": 4,
+        "fields": {
+            "nombre": "Aventura"
+        }
+    },
+    {
+        "model": "resena_libros_web.genero",
+        "pk": 5,
+        "fields": {
+            "nombre": "Misterio"
+        }
+    },
+    {
+        "model": "resena_libros_web.genero",
+        "pk": 6,
+        "fields": {
+            "nombre": "Fantasía"
+        }
+    },
+    {
+        "model": "resena_libros_web.genero",
+        "pk": 7,
+        "fields": {
+            "nombre": "Terror"
+        }
+    },
+    {
+        "model": "resena_libros_web.genero",
+        "pk": 8,
+        "fields": {
+            "nombre": "Histórico"
+        }
+    },
+    {
+        "model": "resena_libros_web.genero",
+        "pk": 9,
+        "fields": {
+            "nombre": "Biografía"
+        }
+    },
+    {
+        "model": "resena_libros_web.genero",
+        "pk": 10,
+        "fields": {
+            "nombre": "Humor"
+        }
+    },
+    {
+        "model": "resena_libros_web.genero",
+        "pk": 11,
+        "fields": {
+            "nombre": "Poesía"
+        }
+    },
+    {
+        "model": "resena_libros_web.genero",
+        "pk": 12,
+        "fields": {
+            "nombre": "Narrativa"
+        }
+    }
+]

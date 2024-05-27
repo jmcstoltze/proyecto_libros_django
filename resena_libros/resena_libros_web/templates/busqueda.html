@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block 'content' %}
+<div>
+    <content id="busqueda">
+        <div class="container">
+            <h2>Búsqueda de Contenido</h2>
+            <hr><br>            
+            <p><a href="{% url 'busqueda_autor' %}">Buscar por autor</a></p>
+            <p><a href="{% url 'busqueda_categoria' %}">Buscar por categoría</a></p>
+            <p><a href="{% url 'busqueda_calificacion' %}">Buscar por calificación</a></p>
+        </div>
+    </content>
+</div>
+{% endblock %}

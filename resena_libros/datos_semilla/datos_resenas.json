@@ -1,0 +1,69 @@
+[
+    {
+        "model": "resena_libros_web.resena",
+        "pk": 1,
+        "fields": {
+            "libro": 1,
+            "usuario": 1,
+            "calificacion": 4,
+            "comentario": "Me encantó este libro, una obra maestra de la literatura latinoamericana.",
+            "fecha_resena": "2024-05-25T12:00:00Z"
+        }
+    },
+    {
+        "model": "resena_libros_web.resena",
+        "pk": 2,
+        "fields": {
+            "libro": 1,
+            "usuario": 1,
+            "calificacion": 5,
+            "comentario": "Sin duda, uno de los mejores libros que he leído. Recomendado.",
+            "fecha_resena": "2024-05-25T12:00:00Z"
+        }
+    },
+    {
+        "model": "resena_libros_web.resena",
+        "pk": 3,
+        "fields": {
+            "libro": 2,
+            "usuario": 2,
+            "calificacion": 4,
+            "comentario": "El resplandor es un libro que te atrapa desde la primera página. Muy recomendado para los amantes del terror psicológico.",
+            "fecha_resena": "2024-05-25T12:00:00Z"
+        }
+    },
+    {
+        "model": "resena_libros_web.resena",
+        "pk": 4,
+        "fields": {
+            "libro": 3,
+            "usuario": 2,
+            "calificacion": 5,
+            "comentario": "Norwegian Wood es una hermosa historia de amor y melancolía. Me emocionó hasta las lágrimas.",
+            "fecha_resena": "2024-05-25T12:00:00Z"
+        }
+    },
+    {
+        "model": "resena_libros_web.resena",
+        "pk": 5,
+        "fields": {
+            "libro": 4,
+            "usuario": 1,
+            "calificacion": 3,
+            "comentario": "Rebelión en la granja es una interesante alegoría política, aunque se me hizo un poco densa en algunos momentos.",
+            "fecha_resena": "2024-05-25T12:00:00Z"
+        }
+    },
+    {
+        "model": "resena_libros_web.resena",
+        "pk": 6,
+        "fields": {
+            "libro": 5,
+            "usuario": 1,
+            "calificacion": 5,
+            "comentario": "1984 es una obra maestra de la distopía. Una lectura imprescindible para entender la sociedad actual.",
+            "fecha_resena": "2024-05-25T12:00:00Z"
+        }
+    }
+]
+

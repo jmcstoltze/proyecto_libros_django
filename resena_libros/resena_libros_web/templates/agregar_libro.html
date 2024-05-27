@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block 'content' %}
+<div>
+    <content id="agregar_libro">
+        <div class="container">
+            <h2>Ingreso de Nuevo Libro</h2>
+        <hr>
+        <form method="post" action="{% url 'agregar_libro' %}">
+            {% csrf_token %}
+            <div class="mb-3">
+                <label for="titulo" class="form-label">Título</label>
+                <input type="text" placeholder="Ingrese título del libro" class="form-control" id="titulo" name="titulo" required>
+            </div>
+            <div class="mb-3">
+                <label for="descripcion" class="form-label">Descripción</label>
+                <textarea placeholder="Ingrese descripción del libro" class="form-control" id="descripcion" name="descripcion" rows="4" required></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="anio_publicacion" class="form-label">Año de Publicación</label>
+                <select class="form-select" id="anio_publicacion" name="anio_publicacion" required>
+                    <option value="">Seleccione año</option>
+                    {% for anio in anios %}
+                        <option value="{{ anio }}">{{ anio }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="url_imagen" class="form-label">Imagen (opcional)</label>
+                <input type="text" placeholder="Ingrese URL de la imagen" class="form-control" id="url_imagen" name="url_imagen"> <!-- Opcional -->
+            </div>
+            <div class="mb-3">
+                <label for="genero" class="form-label">Género</label>
+                <select class="form-select" id="genero" name="genero" required>
+                    <option value="">Seleccione género</option>
+                    {% for genero in generos %}
+                        <option value="{{ genero.id }}">{{ genero.nombre }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="apellido_autor" class="form-label">Apellido del autor:</label>
+                <input type="text" placeholder="Ingrese el apellido del autor" class="form-control mt-2" id="apellido_autor" name="apellido_autor">
+            </div>
+            <div class="mb-3">
+                <label for="nombre_autor" class="form-label">Nombre del autor:</label>
+                <input type="text" placeholder="Ingrese el nombre del autor" class="form-control mt-2" id="nombre_autor" name="nombre_autor">
+            </div>                        
+            <button type="submit" class="btn btn-custom">Guardar nuevo libro</button>
+        </form>           
+    </content>
+</div>
+{% endblock %}

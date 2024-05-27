@@ -1,0 +1,130 @@
+[
+    {
+        "model": "resena_libros_web.autor",
+        "pk": 1,
+        "fields": {
+            "nombre": "Gabriel",
+            "apellido": "García Márquez"
+        }
+    },
+    {
+        "model": "resena_libros_web.autor",
+        "pk": 2,
+        "fields": {
+            "nombre": "Stephen",
+            "apellido": "King"
+        }
+    },
+    {
+        "model": "resena_libros_web.autor",
+        "pk": 3,
+        "fields": {
+            "nombre": "Haruki",
+            "apellido": "Murakami"
+        }
+    },
+    {
+        "model": "resena_libros_web.autor",
+        "pk": 4,
+        "fields": {
+            "nombre": "Noam",
+            "apellido": "Chomsky"
+        }
+    },
+    {
+        "model": "resena_libros_web.autor",
+        "pk": 5,
+        "fields": {
+            "nombre": "Fyodor",
+            "apellido": "Dostoevsky"
+        }
+    },
+    {
+        "model": "resena_libros_web.autor",
+        "pk": 6,
+        "fields": {
+            "nombre": "Franz",
+            "apellido": "Kafka"
+        }
+    },
+    {
+        "model": "resena_libros_web.autor",
+        "pk": 7,
+        "fields": {
+            "nombre": "Albert",
+            "apellido": "Camus"
+        }
+    },
+    {
+        "model": "resena_libros_web.autor",
+        "pk": 8,
+        "fields": {
+            "nombre": "Aldous",
+            "apellido": "Huxley"
+        }
+    },
+    {
+        "model": "resena_libros_web.autor",
+        "pk": 9,
+        "fields": {
+            "nombre": "George",
+            "apellido": "Orwell"
+        }
+    },
+    {
+        "model": "resena_libros_web.autor",
+        "pk": 10,
+        "fields": {
+            "nombre": "J.R.R.",
+            "apellido": "Tolkien"
+        }
+    },
+    {
+        "model": "resena_libros_web.autor",
+        "pk": 11,
+        "fields": {
+            "nombre": "René",
+            "apellido": "Cortázar"
+        }
+    },
+    {
+        "model": "resena_libros_web.autor",
+        "pk": 12,
+        "fields": {
+            "nombre": "Jorge Luis",
+            "apellido": "Borges"
+        }
+    },
+    {
+        "model": "resena_libros_web.autor",
+        "pk": 13,
+        "fields": {
+            "nombre": "Gabriela",
+            "apellido": "Mistral"
+        }
+    },
+    {
+        "model": "resena_libros_web.autor",
+        "pk": 14,
+        "fields": {
+            "nombre": "Pablo",
+            "apellido": "Neruda"
+        }
+    },
+    {
+        "model": "resena_libros_web.autor",
+        "pk": 15,
+        "fields": {
+            "nombre": "Viktor",
+            "apellido": "Frankl"
+        }
+    },
+    {
+        "model": "resena_libros_web.autor",
+        "pk": 16,
+        "fields": {
+            "nombre": "Ray",
+            "apellido": "Bradbury"
+        }
+    }
+]

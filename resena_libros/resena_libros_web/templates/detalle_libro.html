@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block 'content' %}
+<div>
+    <content id="detalle_libro">
+        <div class="container mt-4">
+            <h2>Detalle de Libro</h2>
+            <hr>
+            <div class="row">
+                <div class="col-md-4">
+                    <img id="portada" src="{% static libro.portada_url %}" alt="portada" class="img-fluid">
+                </div>
+                <div class="col-md-8">
+                    <h3>{{ libro.titulo }}</h3>
+                    <p><strong>Descripción:</strong> {{ libro.descripcion }}</p>
+                    <p><strong>Género:</strong>
+                        {% for genero in libro.genero.all %}
+                            {{ genero.nombre }}
+                            {% if not forloop.last %}, {% endif %}
+                        {% endfor %}
+                    </p>
+                    <p><strong>Autor:</strong> 
+                        {% for autor in libro.autor.all %}
+                            {{ autor.nombre }} {{ autor.apellido }}
+                            {% if not forloop.last %}, {% endif %}
+                        {% endfor %}
+                    </p>                                                
+                </div>
+            </div>
+            <hr>
+            <div id="comentarios">
+                <h2>Comentarios</h2><br>
+                <!-- Itera sobre las reseñas del libro -->
+                {% for resena in resenas %}
+                <div class="comentario mb-3">
+                    <div class="d-flex align-items-center">
+                        <img src="{% static 'img/generic_user.jpg' %}" alt="User Icon" class="rounded-circle me-2" width="50">
+                        <div>
+                            <strong>                                
+                                {% if resena.usuario.is_superuser %}
+                                    {{ resena.usuario.username }}
+                                {% else %}
+                                    {{ resena.usuario.first_name }} {{ resena.usuario.last_name }}
+                                {% endif %}                               
+                            </strong>
+                            <hr>
+                            <p class="mb-1"><strong>Calificación:</strong> {{ resena.calificacion }}</p>
+                            <p class="mb-1"><strong>Fecha:</strong> {{ resena.fecha_resena }}</p>
+                            <hr>                                
+                        </div>
+                    </div>                        
+                    <p>"{{ resena.comentario }}"</p>
+                </div>
+                {% endfor %}
+            </div>
+            <hr>
+            <!-- Formulario para dejar un nuevo comentario -->
+            <div id="nuevo_comentario">
+                <h3>Deja tu comentario</h3>
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        <label for="comentario" class="form-label"></label> <!-- Se omite label -->
+                        <textarea class="form-control" id="comentario" name="comentario" rows="4" placeholder="Escribe tu comentario aquí"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="calificacion" class="form-label">Calificación</label>
+                        <select class="form-select" id="calificacion" name="calificacion">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-custom">Enviar comentario</button>
+                </form>
+            </div>
+        </div>
+        
+    </content>
+</div>
+{% endblock %}
