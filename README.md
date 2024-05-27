@@ -25,25 +25,25 @@ Se trata de un sitio web dinámico y responsivo que facilita la gestión de rese
 
 Se incluyen capturas de pantalla de las siguientes vistas:
 
-- [Home](screenshots/home.jpg)
+- ![Home](screenshots/home.jpg)
   Vista inicio de la aplicación.
 
-- [Inicio sesión](screenshots/inicio_sesion.jpg)
+- ![Inicio sesión](screenshots/inicio_sesion.jpg)
   Vista de inicio de sesión.
 
-- [Libros](screenshots/libros)
+- ![Libros](screenshots/libros)
   Vista de la página de libros.
 
-- [Detalles de Libro](screenshots/detalle_libro.jpg)
+- ![Detalles de Libro](screenshots/detalle_libro.jpg)
   Vista del detalle de un libro.
 
-- [Comentario de Libro](screenshots/detalle_libro_comentarios.jpg)
+- ![Comentario de Libro](screenshots/detalle_libro_comentarios.jpg)
   Vista del detalle de un libro.
 
-- [Busqueda](screenshots/busqueda_autor.jpg)
+- ![Busqueda](screenshots/busqueda_autor.jpg)
   Vista de una búsqueda.
 
-- [Registro](screenshots/registro.jpg)
+- ![Registro](screenshots/registro.jpg)
   Vista de registro de usuario.
 
 Más imágenes del proyecto se adjuntan en la carpeta 'screenshots' ubicada en la raíz del proyecto.
