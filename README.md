@@ -4,6 +4,12 @@
 
 Se trata de un sitio web dinámico y responsivo que facilita la gestión de reseñas de libros, permitiendo a los usuarios escribir reseñas, calificar libros y seguir a autores. Esta plataforma ofrece una experiencia de usuario fluida y adaptable en diversos dispositivos, garantizando que los usuarios puedan interactuar de manera intuitiva y accesible.
 
+En sitio cuenta con un formulario de contacto y la posibilidad de registrarse, iniciar sesión y cerrar sesión.
+
+Para usuarios con sesión iniciada se podrá ver la lista de libros precargados, ver el detalles de cada uno y sus comentarios, postear nuevos comentarios y realizar búsquedas por autor, categoría y calificación.
+
+Los usuarios que sean administradores podrán acceder a agregar libros en el sitio. Las imagenes de portadas son opcionales, es decir, si no se ingresan, llevan una imagen por defecto; y si se inegresa, debe ser una url que no es otra cosa que la ubicación de la imagen en la carpeta static 'img/imagenes_de_prueba/nombre_archivo.extension'.
+
 ## Tecnologías Frontend
 
 - HTML
@@ -113,6 +119,10 @@ Para cargar los datos semilla desde archivos JSON ubicados en la carpeta "datos_
 ```bash
 python manage.py loaddata datos_semilla/nombre_del_archivo.json
 ```
+
+## Credenciales para operar
+
+Viene dos usuarios creados que llevan el campo superuser False, por lo tanto no son administradores. Como el campo password viene encriptado no es posible usarlos, solamente ver sus comentarios posteados. Para poder logearse, será necesario registrarse en el sitio y luego iniciar sesión. El superusuario también podrá iniciar sesión en el sitio y tendrá acceso a agregar libros, comos e solicitó.
 
 ## Autor
 
